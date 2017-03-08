@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Leeds Festival 2017</string>
+    <string name="Line_up">Line Up</string>
+    <string name="Tickets">Tickets</string>
+    <string name="Lineup"> Leeds Festival 2017 line up!</string>
+    <string name="TheEvent"> The Event </string>
+    <string name="dir"> Directions to the event </string>
+    <string name="event"> Important information!</string>
+    <string name="car"> Car directions </string>
+    <string name="coach"> Coach information </string>
+    <string name="train_shuttle"> Train and shuttle </string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity__coach"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.u1660498.studio1assignment.activity_Coach"
+    android:background="#f8ef23">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText10"
+        android:text="Big Green Coach is the official and exclusive coach travel + festival ticket partner to Leeds Festival. The largest ever coach network in to Leeds Festival, Big Green Coach will be picking up from 32 locations, so there's sure to be a departure point close to you."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText11"
+        android:text="Coach travel to Leeds Festival from: Birkenhead, Birmingham, Blackpool, Carlisle, Chester, Chesterfield, Coventry, Darlington, Derby, Doncaster, Durham, Edinburgh, Glasgow, Grimsby, Hartlepool, Hull, Leicester, Liverpool, Llandudno, Manchester, Middlesbrough, Newcastle-upon-Tyne, Nottingham, Preston, Rhyl, Scunthorpe, Sheffield, Stafford, Stockport, Stockton-on-Tees, Stoke-on-Trent, Sunderland, Warrington, Wigan and York.   Coaches arrive on the Wednesday and Thursday (with a limited service on the Friday). All coaches depart Leeds Festival on the Monday."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_below="@+id/editText10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBook"
+        android:onClick="sendBook"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:text="Big Green Coach is the only coach company authorised to access the Leeds Festival official coach park – only book from the official coach partner to avoid disappointment.  Don't worry about the driving, parking or taking it easy on the last night. Party hard and sleep all the way home on a Big Green Coach official executive coach."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_marginBottom="33dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

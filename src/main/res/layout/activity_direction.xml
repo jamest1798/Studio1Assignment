@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_direction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.u1660498.studio1assignment.activity_direction"
+    android:background="#f8ef23">
+
+    <TextView
+        android:text="Please select which mode of transport you wish to get directions for"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtDirections"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="@string/car"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCar"
+        android:onClick="sendCar"
+        android:layout_below="@+id/txtDirections"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="83dp" />
+
+    <Button
+        android:text="@string/coach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnCoach"
+        android:onClick="sendCoach"
+        android:layout_below="@+id/btnCar"
+        android:layout_alignLeft="@+id/btnCar"
+        android:layout_alignStart="@+id/btnCar"
+        android:layout_marginTop="71dp"
+        android:layout_alignRight="@+id/btnCar"
+        android:layout_alignEnd="@+id/btnCar" />
+
+    <Button
+        android:text="@string/train_shuttle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4"
+        android:layout_below="@+id/btnCoach"
+        android:layout_alignLeft="@+id/btnCoach"
+        android:layout_alignStart="@+id/btnCoach"
+        android:layout_marginTop="70dp"
+        android:layout_alignRight="@+id/btnCoach"
+        android:layout_alignEnd="@+id/btnCoach" />
+</RelativeLayout>
